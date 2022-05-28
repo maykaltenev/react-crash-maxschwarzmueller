@@ -1,4 +1,4 @@
-import Todo from './components/Todo'
+import Todo from './components/Todo';
 import Backdrop from './components/Backdrop';
 import Modal from './components/Modal';
 
