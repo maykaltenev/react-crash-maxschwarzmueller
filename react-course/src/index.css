@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+header {
+  font-size: 12px;
+}
 body {
   font-family: sans-serif;
   margin: 3rem;

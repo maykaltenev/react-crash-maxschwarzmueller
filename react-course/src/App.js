@@ -1,19 +1,23 @@
-import Todo from './components/Todo';
-import Backdrop from './components/Backdrop';
-import Modal from './components/Modal';
+// import Todo from './components/Todo';
 
 
+import { Routes, Route } from "react-router-dom";
+import AllMeetupsPage from './pages/AllMeetups';
+import NewMeetupsPage from './pages/NewMeetups';
+import FavoritesPage from './pages/Favorites';
+import MainNavigation from './components/layout/MainNavigation';
 function App() {
   return (
     <div>
-      <h1>My Todos</h1>
-      <Todo text="Learn React" />
-      <Todo text="Master React" />
-      <Todo text="Explore the full React course" />
-      <Modal />
-      <Backdrop />
-    </div>
-  )
-}
+      <MainNavigation />
+      <Routes>
+        <Route path="/" element={<AllMeetupsPage />} />
+        <Route path="/new-meetup" element={<NewMeetupsPage />} />
+        <Route path="/favorites" element={<FavoritesPage />} />
+      </Routes>
 
+    </div>
+  );
+}
 export default App;
+
