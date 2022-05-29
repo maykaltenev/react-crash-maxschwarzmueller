@@ -1,21 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap");
 * {
   box-sizing: border-box;
 }
 
-header {
-  font-size: 12px;
-}
 body {
-  font-family: sans-serif;
-  margin: 3rem;
-  background-color: #dfdfdf;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  background-color: #fcf3f6;
 }
 
-h1,
+h1 {
+  font-size: 4.5rem;
+  color: #2c292b;
+}
 h2 {
-  color: #333333;
+  font-size: 1.5rem;
+  color: #3b363a;
 }
-
+/* 
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
@@ -74,4 +76,4 @@ h2 {
   height: 100vh;
   top: 0;
   left: 0;
-}
+} */
