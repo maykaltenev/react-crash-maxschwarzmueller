@@ -54,7 +54,6 @@ function AllMeetupsPage() {
     }
     return (
         <section>
-            <div>All Meetups Page</div>
             <ul>
                 <MeetupList meetups={loadedMeetups} />
             </ul>
