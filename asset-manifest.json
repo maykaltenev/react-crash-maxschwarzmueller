@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-crash-maxschwarzmueller/static/css/main.49a80068.css",
-    "main.js": "/react-crash-maxschwarzmueller/static/js/main.52ca1a78.js",
+    "main.js": "/react-crash-maxschwarzmueller/static/js/main.83a6f69d.js",
     "index.html": "/react-crash-maxschwarzmueller/index.html",
     "main.49a80068.css.map": "/react-crash-maxschwarzmueller/static/css/main.49a80068.css.map",
-    "main.52ca1a78.js.map": "/react-crash-maxschwarzmueller/static/js/main.52ca1a78.js.map"
+    "main.83a6f69d.js.map": "/react-crash-maxschwarzmueller/static/js/main.83a6f69d.js.map"
   },
   "entrypoints": [
     "static/css/main.49a80068.css",
-    "static/js/main.52ca1a78.js"
+    "static/js/main.83a6f69d.js"
   ]
 }
